@@ -1,0 +1,49 @@
+.reserveProperty{
+    padding-top: 40px;
+}
+
+.imgggg{
+    filter: brightness(40%);
+    position: absolute;
+    height: 800px;
+}
+
+.reservename{
+    width: 90%;
+    position: relative;
+    top: 80px;
+    left: 60px;
+    /* text-align: center; */
+    margin-top: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.reservename p{
+    font-weight: normal;
+    font-size: small;
+}
+
+.reservetable{
+    margin-left: 250px;
+    margin-top: 50px;
+    text-align: center;
+    width: 800px;
+    background-color: white;
+    color: black;
+}
+
+.reservetable tr{
+    height: 50px;
+    border: 2px solid black;
+}
+
+.reservetable th{
+    font-size: larger;
+    border: 1px solid black;
+}
+
+.reservetable td{
+    font-weight: normal;
+    border: 1px solid black;
+}

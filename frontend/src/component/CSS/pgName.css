@@ -1,0 +1,62 @@
+.pgname {
+    border-radius: 20px;
+    /* background-color: red; */
+    max-width: 1193px;
+    margin: auto;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    z-index: 1;
+}
+
+.pgpic div{
+    /* background-image: linear-gradient(red, blue); */
+    background-color: blue;
+    border-radius: 20px;
+}
+
+.pgpic img {
+    transition: transform 0.3s;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.pgpic:hover img{
+    transform: scale(0.98);
+    filter: brightness(110%);
+}
+
+.smalldetail {
+    margin: 15px 25px 15px;
+}
+
+.propertyName {
+    color: rgb(35, 69, 145);
+    cursor: pointer;
+}
+
+.distance h6{
+    font-size: small;
+    margin-bottom: 8px;
+}
+
+.available h6 {
+    font-size: small;
+    display: inline;
+    margin-right: 30px;
+}
+
+.btn {
+    margin-top: 11px;
+    margin-left: 30px;
+}
+
+.namee h6 {
+    display: inline-block;
+    margin-bottom: 2px;
+    padding: 0px 3px;
+    background-color: rgb(241, 240, 240);
+    border-radius: 10px;
+    box-shadow: 2px 1px 3px black;
+}

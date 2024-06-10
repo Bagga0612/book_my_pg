@@ -1,0 +1,11 @@
+.listdash li {
+    display: block;
+    border: 1px solid black;
+    border-radius: 6px;
+    /* width: 100%; */
+    /* padding: 10px; */
+}
+
+.listdash ul{
+    margin: 30px 0px 20px;
+}

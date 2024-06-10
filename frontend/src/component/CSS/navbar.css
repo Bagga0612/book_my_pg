@@ -1,0 +1,28 @@
+nav ul{
+    float: right;
+    line-height: 50px;
+    margin-bottom: 0px;
+}
+nav img{
+    width: 85px;
+    padding: 5px 20px;
+    /* border-radius: 50px; */
+    cursor: pointer;
+}
+#navbar{
+    background-color: rgb(35, 69, 145);
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    overflow: hidden;
+}
+
+li{
+    display: inline-block;
+    padding: 0px 20px;
+    cursor: pointer;
+}
+#me{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}

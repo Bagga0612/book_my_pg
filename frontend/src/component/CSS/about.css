@@ -1,0 +1,51 @@
+.about {
+    padding-top: 102px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.heading1 {
+    color: rgb(35, 69, 145);
+    text-decoration: underline;
+    /* font-size: larger; */
+}
+
+.heading {
+    color: rgb(35, 69, 145);
+    font-size: x-large;
+    padding-top: 5px;
+    text-decoration: underline;
+}
+
+.aboutImg {
+    width: 490px;
+    transition: transform 0.2s;
+}
+
+.aboutImg:hover {
+    transform: scale(1.1);
+}
+
+.detail {
+    padding-top: 10px;
+    font-size: larger;
+}
+
+.detail1 {
+    padding-top: 10px;
+    font-size: large;
+}
+
+.container {
+    padding-top: 40px;
+    padding-bottom: 10px
+}
+
+.aboutImg1 {
+    width: 490px;
+    transition: transform 0.2s;
+}
+
+.aboutImg1:hover {
+    transform: scale(1.1);
+}

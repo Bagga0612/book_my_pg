@@ -1,0 +1,28 @@
+.list{
+    padding-top: 92px;
+}
+
+.main {
+    color: rgb(35, 69, 145);
+    text-align: center;
+}
+
+.mainBelow {
+    font-weight: light;
+    text-align: center;
+}
+
+.carousel{
+    margin: 30px;
+    border-radius: 20px;
+    /* box-shadow: 0 4px 8px 0 rgba(107, 106, 106, 0.2), 0 6px 20px 0 rgba(124, 125, 126, 0.19); */
+}
+
+.carouselimg{
+    border-radius: 20px;
+}
+
+.listname{
+    margin: 30px;
+    font-weight: 700;
+}

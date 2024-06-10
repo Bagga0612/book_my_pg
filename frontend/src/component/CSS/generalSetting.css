@@ -1,0 +1,43 @@
+.general{
+    padding-top: 40px;
+}
+
+.imgggg{
+    filter: brightness(40%);
+    position: absolute;
+    height: 800px;
+}
+
+
+.profiletable{
+    margin-left: 250px;
+    margin-top: 50px;
+    /* text-align: center; */
+    /* border-radius: 7px; */
+    width: 700px;
+    background-color: white;
+    color: black;
+}
+
+.profiletable tr{
+    height: 50px;
+    border: 2px solid black;
+}
+
+.reservetable th{
+    font-size: larger;
+    border: 1px solid black;
+}
+
+.profiletable td{
+    padding-left: 30px;
+    padding-top: 7px;
+    font-size: larger;
+    /* font-weight: normal; */
+    border: 1px solid black;
+}
+
+.profiletable p{
+    padding-left: 50px;
+    font-size: xx-large;
+}

@@ -1,0 +1,38 @@
+.contact{
+    padding-top: 102px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.heading1 {
+    color: rgb(35, 69, 145);
+    text-decoration: underline;
+    /* font-size: larger; */
+}
+
+.detail {
+    padding-top: 10px;
+    font-size: large;
+}
+
+.infoDetail1{
+    font-size: larger;
+    padding-left: 55px;
+}
+
+.head{
+    color: rgb(35, 69, 145);
+    font-weight: bold;
+    display: inline-block;
+    padding-left: 20px;
+}
+
+.button{
+    float: right;
+}
+
+.label{
+    color: rgb(35, 69, 145);
+    /* font-weight: bold; */
+    font-size: larger;
+}

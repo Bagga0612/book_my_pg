@@ -1,0 +1,172 @@
+.details {
+  padding-top: 62px;
+  overflow: hidden;
+  flex: 1;
+  position: relative;
+}
+
+.imgg {
+  max-height: 60px;
+  margin: 5px 46%;
+}
+
+.text {
+  font-family: cursive;
+  text-shadow: 0px 0px 2px rgb(129, 128, 128);
+}
+
+.namee {
+  padding: 40px 30px 20px;
+}
+
+.namee h2 {
+  display: inline-block;
+  font-weight: 700;
+  color: rgb(35, 69, 145);
+  padding-right: 30px;
+  margin-bottom: 2px;
+}
+
+.namee h5 {
+  display: inline-block;
+  margin-bottom: 2px;
+  padding: 0px 3px;
+  background-color: rgb(219, 219, 219);
+  border-radius: 10px;
+  box-shadow: 2px 1px 3px black;
+}
+
+.color {
+  color: rgb(35, 69, 145);
+}
+
+.icon {
+  cursor: pointer;
+}
+
+.twobed {
+  background-color: rgb(201, 225, 247);
+  max-width: fit-content;
+  padding: 5px 10px;
+  border-radius: 15px;
+  position: relative;
+  top: 13px;
+  left: 57px;
+}
+
+.alv {
+  background-color: rgb(212, 241, 248);
+  box-shadow: 5px 3px 10px rgb(195, 195, 196);
+  max-width: fit-content;
+  padding: 20px 25px;
+  border-radius: 20px;
+  position: static;
+}
+
+.ameniti {
+  max-width: fit-content;
+  border: 1px solid rgb(201, 225, 247);
+  box-shadow: 5px 3px 5px rgb(201, 225, 247);
+  border-radius: 25px;
+}
+
+.show {
+  cursor: pointer;
+  color: rgb(35, 69, 145);
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.infoo {
+  font-size: smaller;
+  color: rgb(139, 211, 245);
+}
+
+.colll {
+  position: relative;
+}
+
+.toggle-container {
+  align-items: center;
+  position: sticky;
+  top: 70px;
+}
+
+.toggle {
+  position: relative;
+  display: inline-block;
+  content: "Form";
+  width: 100%;
+  height: 64px;
+}
+
+.toggle input {
+  /* content: "Form"; */
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgb(35, 69, 145);
+  transition: .4s;
+  border-radius: 3px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 96%;
+  width: 50%;
+  left: 2px;
+  bottom: 1px;
+  background-color: rgb(139, 211, 245);
+  transition: .4s;
+  /* border-radius: 50%; */
+}
+
+input:checked+.slider {
+  background-color: rgb(35, 69, 145);
+}
+
+input:focus+.slider {
+  box-shadow: 0 0 1px rgb(35, 69, 145);
+}
+
+input:checked+.slider:before {
+  transform: translateX(260px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 36px;
+}
+
+.toggle-container #visit {
+  position: absolute;
+  top: 18px;
+  left: 45px;
+  color: white;
+}
+
+.toggle-container #now {
+  position: absolute;
+  top: 18px;
+  left: 320px;
+  color: white;
+}
